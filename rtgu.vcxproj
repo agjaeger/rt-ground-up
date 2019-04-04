@@ -19,11 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\math\Point3.hpp" />
     <ClInclude Include="include\math\Vector3.hpp" />
     <ClInclude Include="include\types.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\math\Point3.cpp" />
     <ClCompile Include="source\math\Vector3.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

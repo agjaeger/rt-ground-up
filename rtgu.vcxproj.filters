@@ -27,12 +27,18 @@
     <ClInclude Include="include\types.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\math\Point3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\math\Vector3.cpp">
       <Filter>Source Files\math</Filter>
     </ClCompile>
     <ClCompile Include="source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\math\Point3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -7,13 +7,14 @@
 
 #include "gtest/gtest.h"
 
-#include "math/Vector3.hpp"
-#include "../source/math/Vector3.cpp"
+#include "math/Point3.hpp"
+#include "../source/math/Point3.cpp"
 
-TEST (Vector3, AddTwoVecs) {
-	math::Vector3 a = {0, 0, 0};
-	math::Vector3 b = {1, 1, 1};
-	math::Vector3 res = a + b;
+TEST (Point3, AddTwoPoints) {
+	math::Point3 p = {0, 0, 0};
+	math::Vector3 v = {1, 1, 1};
+
+	math::Point3 res = p + v;
 
 	EXPECT_EQ(res.x, 1);
 	EXPECT_EQ(res.y, 1);
